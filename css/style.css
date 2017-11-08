@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');   
+
+
+body{
+    /*background-image: url(../imgs/tesla-face.jpg);*/
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+.invention_gallery{
+    margin: auto;
+    max-width: 500px;
+    border-radius: 110px 110px 0px 0px;
+    
+    background: transparent;
+    border: 5px solid darkgreen;
+}
+.gallery_item_name{
+    text-align: center;
+}
+.gallery_item_decription{
+    margin: 5px;
+}
+img{
+    float: left;
+    margin: 15px;
+}
+
+h1,
+h2,
+h4,
+strong {
+  color: #333;
+}
+a {
+  color: #e81c4f;
+  
+}
+
+.source {
+    border-left: 2px solid #69c;
+}
+
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url(../imgs/tesla-face.jpg);
+    background-color: #263d36;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    max-width: none;
+    margin: -50px -250px 50px -250px;
+    padding: 225px 150px
+
+}
+
+
+
+header h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: ghostwhite;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url(../imgs/tesla-face.jpg);
+    background-color: #263d36;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    max-width: none;
+    margin: auto auto;
+    padding: 225px 150px
+
+}
+
+header h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: ghostwhite;
+}
+
+}
