@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -29px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -88,7 +88,7 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: url(https://icongr.am/entypo/triangle-left.svg);
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -97,7 +97,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -17px;
 }
 [dir='rtl'] .slick-next
 {
@@ -106,7 +106,7 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: url(https://icongr.am/entypo/triangle-right.svg);
 }
 [dir='rtl'] .slick-next:before
 {
